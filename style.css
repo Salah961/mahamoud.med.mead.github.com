@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  color: white;
+  background: black;
+}
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+}
+h2{
+  color :rgb(248, 83, 7);
+    font-size: 25px;
+}
+h1{
+  color :rgb(243, 169, 135);
+    font-size: 20px;
+}
+h4{
+
+   margin-left: 150px;
+    margin-top: -10px;
+}
+h5{
+color :rgb(248, 83, 7);
+    font-size: 25px;
+   margin-left: -40px;
+    margin-top: 10px;
+}
+h6{
+color :rgb(247, 212, 196);
+    font-size: 20px;
+   
+}
+.logo {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.presentation {
+  flex: 1 1 300px;
+  max-width: 600px;
+}
+
+.passion {
+  color: #ff4081;
+  margin: 10px 0;
+}
+
+.boutons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.photo {
+  flex: 1 1 250px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.photo-profil {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  max-width: 200px;
+  height: auto;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+#sound-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  font-size: 24px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}

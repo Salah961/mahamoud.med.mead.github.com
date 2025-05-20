@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio - Mahmoud</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Vidéo de fond -->
+  <video autoplay muted loop id="background-video">
+    <source src="background.mp4" type="video/mp4" />
+    Votre navigateur ne supporte pas la vidéo.
+  </video>
+
+  <!-- Bouton son -->
+  <button id="sound-toggle" aria-label="Activer/Désactiver le son">🔇</button>
+
+  <!-- En-tête et menu -->
+  <header>
+    <img src="mon-logo.png" alt="Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="propos.html">À propos</a></li>
+        <li><a href="profilPro.html">Mon Profil</a></li>
+          <li><a href="memoire.html">Mémoire</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section principale -->
+  <main class="container">
+    <section class="presentation">
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <p>Découvrez mes projets, mes compétences et mon parcours.</p>
+      <p><strong>Nom :</strong> Mahmoud Mohamed Mead</p>
+      <p><strong>Statut :</strong> Élève professeur en formation</p>
+      <p class="passion">Passionné par l’éducation et les technologies</p>
+      <div class="boutons">
+        <a href="propos.html" class="btn">À propos</a>
+        <a href="profilPro.html" class="btn">Mon Profil</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </section>
+    <section class="photo">
+      <img src="montof.jpg" alt="Ma photo" class="photo-profil" />
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer id="contact">
+    <p>&copy; 2025 Mahmoud Mohamed Mead - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
